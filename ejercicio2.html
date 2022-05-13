@@ -1,0 +1,63 @@
+<!--Actividad #1 Kevin Ruiz-->
+<!DOCTYPE html>
+<html lang ="es">
+    <head>
+        <META charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Ejercicio2</title>
+    </head>
+    <body>
+        <form method="POST" action="destinatario.html">
+            <fieldset style="background-color:#083a6bce">
+                <h1 style="color:white">
+                    <p><b>Edit Settings</b></p>
+                </h1>
+            </fieldset>
+                    <fieldset style="background-color:#65abf0ce">
+                        <table>  
+                            <body>
+                                <style>
+                                    .required:after {
+                                      content:"*";
+                                      margin-left: 100px;
+                                      color: red;
+                                      font-size: xx-large; 
+                                      padding: 0 5px 0 0;
+                                      
+                                    }
+                                </style>
+                                <tr>
+                                    <td><label for = "Domain">Domain name for<br>Landing page:</label><label class= "required"><th><input type ="url" size ="40" name ="Domain" ></th></td>   
+                                </tr>
+                                <tr>
+                                    <td><label class="required" for = "Domain">Fallback page:</label><th><input type ="url" size ="40" name ="Domain" ></th></td>   
+                                </tr>
+                                <table>
+                                    <p> 
+                                        <textarea cols="60" rows = "5">
+                                         Note:The fallback page is used for unrecognized landing pages and whenever a landing page is unavailable.
+                                        </textarea>
+                                    </p>
+                                </table>
+                                <tr>
+                                    <td><label for = "Domain">Home page:</label><label class= "required"></label><th><input type ="url" size ="35" name ="Domain" ></th></td>   
+                                </tr>
+                                <table>
+                                    <tbody>
+                                        <p>
+                                            <input type ="checkbox" name ="Doc" value="carnet"/>From Prefill<br>
+                                            <input type ="checkbox" name ="Doc" value="Celular"/>Inject Prefill Script At End Of Head<br>
+                                            <input type ="checkbox" name ="Doc" value="tablet"/>Do not allow Marketo pages to be embedded in<br>external web pages<br>
+                                            <input type ="checkbox" name ="Doc" value="carnet"/>Remove default favicoon links<br>
+
+                                        </p>
+                                    </tbody>   
+                                </table>
+  
+
+                            </body>
+                        </table>
+                    
+                    
+                            
